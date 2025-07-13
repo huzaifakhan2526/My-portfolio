@@ -12,7 +12,6 @@ import telegram from '../../assets/telegram.svg'
 const AnimatedScroll = ScrollAnimation as any;
 const NavHashLinkComponent = NavHashLink as any;
 
-
 export function Hero() {
   return (
     <Container id="home">
