@@ -1,4 +1,4 @@
-# Portfolio of Muhammad Huzaifa Khan
+# Portfolio of Aditya Koushik V
 
 <img src ="https://github.com/huzaifakhan1225CodeVinayak/blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.vinayaksingh.in.png" />
  

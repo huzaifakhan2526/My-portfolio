@@ -21,7 +21,7 @@ export function Hero() {
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </AnimatedScroll>
         <AnimatedScroll animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Muhammad Huzaifa Khan</h1>
+          <h1>Aditya Koushik V</h1>
         </AnimatedScroll>
         <AnimatedScroll animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Full Stack Developer | Angular, React, Node.js, Python, AI Integrations</h3>
