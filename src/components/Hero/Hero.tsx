@@ -9,6 +9,7 @@ import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
 
+
 const AnimatedScroll = ScrollAnimation as any;
 const NavHashLinkComponent = NavHashLink as any;
 
