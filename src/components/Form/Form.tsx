@@ -5,6 +5,8 @@ import ReCAPTCHA from 'react-google-recaptcha'
 import { useEffect, useState } from 'react'
 import validator from 'validator'
 
+const RecaptchaComponent = ReCAPTCHA as any;
+
 export function Form() {
   const [state, handleSubmit] = useForm('xknkpqry')
   const [validEmail, setValidEmail] = useState(false)
@@ -72,12 +74,12 @@ export function Form() {
           field="message"
           errors={state.errors}
         />
-        <ReCAPTCHA
+        <RecaptchaComponent
           sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
-          onChange={(e) => {
+          onChange={(e: any) => {
             setIsHuman(true)
           }}
-        ></ReCAPTCHA>
+        />
         <button
           type="submit"
           disabled={state.submitting || !validEmail || !message || !isHuman}

@@ -8,28 +8,32 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
+
+const AnimatedScroll = ScrollAnimation as any;
+const NavHashLinkComponent = NavHashLink as any;
+
 export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
-        <ScrollAnimation animateIn="fadeInUp">
+        <AnimatedScroll animateIn="fadeInUp">
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+        </AnimatedScroll>
+        <AnimatedScroll animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>Muhammad Huzaifa Khan</h1>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+        </AnimatedScroll>
+        <AnimatedScroll animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Full Stack Developer | Angular, React, Node.js, Python, AI Integrations</h3>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+        </AnimatedScroll>
+        <AnimatedScroll animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">5 Years of Experience</p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+        </AnimatedScroll>
+        <AnimatedScroll animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
+            <NavHashLinkComponent smooth to="#contact" className="button">Contact</NavHashLinkComponent>
           </BrowserRouter>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        </AnimatedScroll>
+        <AnimatedScroll animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
         href="https://www.linkedin.com/in/themuhammadhuzaifakhan1211"
         target="_blank"
@@ -58,12 +62,12 @@ export function Hero() {
         >
           <img src={telegram} alt="telegram" />
         </a></div>
-        </ScrollAnimation>
+        </AnimatedScroll>
       </div>
       <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
+        <AnimatedScroll animateIn="fadeInRight" delay={1 * 1000}>
           <img src={Illustration} alt="Ilustração" />
-        </ScrollAnimation>
+        </AnimatedScroll>
       </div>
     </Container>
   )
