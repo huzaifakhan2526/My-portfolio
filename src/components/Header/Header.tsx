@@ -3,6 +3,10 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import Resume from '../../assets/Updated-Resume.pdf'
+
+const NavHashLinkComponent = NavHashLink as any;
+const HashLinkComponent = HashLink as any;
+
 export function Header() {
   const [isActive, setActive] = useState(false)
   function toggleTheme() {
@@ -15,9 +19,9 @@ export function Header() {
   return (
     <Container className="header-fixed">
       <Router>
-        <HashLink smooth to="#home" className="logo">
+        <HashLinkComponent smooth to="#home" className="logo">
           <span>{"<Aditya Koushik V/>"}</span>
-        </HashLink>
+        </HashLinkComponent>
         <input
           onChange={toggleTheme}
           className="container_toggle"
@@ -27,18 +31,18 @@ export function Header() {
         />
         <label htmlFor="switch">Toggle</label>
         <nav className={isActive ? 'active' : ''}>
-          <NavHashLink smooth to="#home" onClick={closeMenu}>
+          <NavHashLinkComponent smooth to="#home" onClick={closeMenu}>
             Home
-          </NavHashLink>
-          <NavHashLink smooth to="#about" onClick={closeMenu}>
+          </NavHashLinkComponent>
+          <NavHashLinkComponent smooth to="#about" onClick={closeMenu}>
             About me
-          </NavHashLink>
-          {/* <NavHashLink smooth to="#project" onClick={closeMenu}>
+          </NavHashLinkComponent>
+          {/* <NavHashLinkComponent smooth to="#project" onClick={closeMenu}>
             Project
-          </NavHashLink> */}
-          <NavHashLink smooth to="#contact" onClick={closeMenu}>
+          </NavHashLinkComponent> */}
+          <NavHashLinkComponent smooth to="#contact" onClick={closeMenu}>
             Contact
-          </NavHashLink>
+          </NavHashLinkComponent>
           <a href={Resume} download className="button">
             Resume
           </a>

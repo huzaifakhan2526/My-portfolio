@@ -95,7 +95,7 @@ export function About() {
       </div>
       <div className="about-image">
         <AnimatedScroll animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={HuzaifaKhan} alt="Aditya Koushik V" />
+          <img src={HuzaifaKhan} alt="Muhammad Huzaifa Khan" />
         </AnimatedScroll>
       </div>
     </Container>
