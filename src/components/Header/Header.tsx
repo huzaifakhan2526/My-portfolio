@@ -20,7 +20,7 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLinkComponent smooth to="#home" className="logo">
-          <span>{"<Aditya Koushik V/>"}</span>
+          <span>{"Aditya Koushik V"}</span>
         </HashLinkComponent>
         <input
           onChange={toggleTheme}
@@ -37,15 +37,15 @@ export function Header() {
           <NavHashLinkComponent smooth to="#about" onClick={closeMenu}>
             About me
           </NavHashLinkComponent>
-          {/* <NavHashLinkComponent smooth to="#project" onClick={closeMenu}>
+          <NavHashLinkComponent smooth to="#project" onClick={closeMenu}>
             Project
-          </NavHashLinkComponent> */}
+          </NavHashLinkComponent>
           <NavHashLinkComponent smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLinkComponent>
-          <a href={Resume} download className="button">
+          {/* <a href={Resume} download className="button">
             Resume
-          </a>
+          </a> */}
         </nav>
         <div
           aria-expanded={isActive ? 'true' : 'false'}

@@ -9,18 +9,18 @@ import instagramIcon from '../../assets/instagram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://themuhammadhuzaifakhan.tech/" className="logo">
+      <a href="https://www.adityakoushik.in/" className="logo">
         {/* <span>www.themuhammadhuzaifa</span>
         <span>khan.tech</span> */}
         <span>Home</span>
       </a>
       <div>
         <p>
-          This Website was made with <img src={reactIcon} alt="React" />
+          {/* This Website was made with <img src={reactIcon} alt="React" /> */}
           {/* <span>❤️</span> */}
         </p>
       </div>
-      <div className="social-media">
+      {/* <div className="social-media">
         <a
           href="https://www.linkedin.com/in/themuhammadhuzaifakhan1211"
           target="_blank"
@@ -56,7 +56,7 @@ export function Footer() {
         >
           <img src={instagramIcon} alt="Instagram" />
         </a>
-      </div>
+      </div> */}
     </Container>
   )
 }

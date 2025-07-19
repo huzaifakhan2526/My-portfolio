@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import HuzaifaKhan from "../../assets/Huzaifa_khan.jpg";
+import AdityaKoushikV from "../../assets/Aditya.jpg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -17,87 +17,114 @@ const AnimatedScroll = ScrollAnimation as any;
 export function About() {
   return (
     <Container id="about">
-      <div className="about-text">
-        <AnimatedScroll animateIn="fadeInLeft">
-          <h2>About me</h2>
-        </AnimatedScroll>
-        <AnimatedScroll animateIn="fadeInLeft" delay={0.1 * 1000}>
-          <p>
-            Hi there! I'm Muhammad Huzaifa Khan, a passionate Full Stack Developer with over four years of experience in designing and building dynamic, scalable, and efficient web and mobile applications. I specialize in using modern technologies to create seamless user experiences and high-performance applications.
-          </p>
-        </AnimatedScroll>
-        <AnimatedScroll animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-          <p>
-          My expertise spans a wide range of technologies, including PHP, Node.js, React.js, Next.js, Angular, TypeScript, React Native, and Python. I enjoy solving complex technical challenges and optimizing applications for better performance and scalability. Whether it's frontend development for a sleek UI/UX experience or backend architecture for robust server-side logic, I ensure every project is executed with precision and efficiency.
-          </p>
+      <AnimatedScroll animateIn="fadeInUp">
+        <h2>About Me</h2>
+      </AnimatedScroll>
+      <AnimatedScroll animateIn="fadeInUp" delay={0.2 * 1000}>
+        <p className="subtitle">
+          Strategic AI Product Manager with a proven record in launching enterprise-grade AI solutions from concept to go-to-market.
+        </p>
+      </AnimatedScroll>
 
-        </AnimatedScroll>
+      <div className="content-sections">
         <AnimatedScroll animateIn="fadeInLeft" delay={0.3 * 1000}>
-          <p>
-          Beyond coding, I am always eager to learn and explore new tools and frameworks to enhance my development skills. I believe in writing clean, maintainable code and following industry best practices to deliver top-notch solutions. Let's connect and bring innovative ideas to life together!
+          <div className="left-section">
+            <h3>Who I Am</h3>
+            <p>
+              Strategic AI Product Manager with a proven record in launching enterprise-grade AI solutions from concept to go-to-market. Adept at leading cross-functional teams, defining product vision, and scaling AI platforms that have generated over AED 1.3B in enterprise value.
             </p>
+            <p>
+              My expertise spans Generative AI, NLP, Computer Vision, Retrieval Augmented Generation, and AI automation across FinTech, HealthTech, and industrial sectors.
+            </p>
+          </div>
         </AnimatedScroll>
-        <AnimatedScroll animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Here are my main skills:</h3>
+
+        <AnimatedScroll animateIn="fadeInRight" delay={0.4 * 1000}>
+          <div className="right-section">
+            <h3>What I Do</h3>
+            <ul className="responsibilities">
+              <li>Build and scale AI products for FinTech, HealthTech, and industrial clients</li>
+              <li>Lead teams in Agile/SAFe environments, optimizing product lifecycles</li>
+              <li>Architect cloud-native AI solutions on AWS, Azure, and Google Cloud</li>
+              <li>Drive end-to-end delivery: ideation, MVP, product-market fit, and GTM</li>
+              <li>Implement AI governance, compliance, and ethical frameworks</li>
+            </ul>
+          </div>
         </AnimatedScroll>
-        <div className="hard-skills">
-          <div className="hability">
-            <AnimatedScroll animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
-            </AnimatedScroll>
+      </div>
+
+      <AnimatedScroll animateIn="fadeInUp" delay={0.5 * 1000}>
+        <div className="expertise-grid">
+          <div className="expertise-card">
+            <div className="card-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M21 12c-1 0-2-1-2-2s1-2 2-2 2 1 2 2-1 2-2 2z" stroke="currentColor" strokeWidth="2"/>
+                <path d="M3 12c1 0 2-1 2-2s-1-2-2-2-2 1-2 2 1 2 2 2z" stroke="currentColor" strokeWidth="2"/>
+                <path d="M12 3c0 1-1 2-2 2s-2 1-2 2 1 2 2 2 2 1 2 2 1 2 2 2 2 1 2 2-1 2-2 2-2-1-2-2-1-2-2-2-2-1-2-2 1-2 2-2 2-1 2-2z" stroke="currentColor" strokeWidth="2"/>
+              </svg>
+            </div>
+            <h4>AI Strategy</h4>
+            <p>Defining product vision for next-gen AI solutions</p>
           </div>
-          <div className="hability">
-            <AnimatedScroll animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={shopify} alt="shopify" />
-            </AnimatedScroll>
+
+          <div className="expertise-card">
+            <div className="card-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
+                <circle cx="12" cy="12" r="6" stroke="currentColor" strokeWidth="2"/>
+                <circle cx="12" cy="12" r="2" stroke="currentColor" strokeWidth="2"/>
+              </svg>
+            </div>
+            <h4>Enterprise Focus</h4>
+            <p>AED 1.3B+ in enterprise value generated</p>
           </div>
-          <div className="hability">
-            <AnimatedScroll animateIn="fadeInUp" delay={0.13 * 1000}>
-              <img src={reactIcon} alt="React" />
-            </AnimatedScroll>
+
+          <div className="expertise-card">
+            <div className="card-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="9" cy="7" r="4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h4>Team Leadership</h4>
+            <p>Leading cross-functional teams in Agile environments</p>
           </div>
-          <div className="hability">
-            <AnimatedScroll animateIn="fadeInUp" delay={0.14 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
-            </AnimatedScroll>
+
+          <div className="expertise-card">
+            <div className="card-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h4>Innovation</h4>
+            <p>Cloud-native AI solutions on AWS, Azure, GCP</p>
           </div>
-          <div className="hability">
-            <AnimatedScroll animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
-            </AnimatedScroll>
+
+          <div className="expertise-card">
+            <div className="card-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 3v18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M18 9l-3-3-3 3-3-3-3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h4>Growth</h4>
+            <p>From concept to go-to-market success</p>
           </div>
-          <div className="hability">
-            <AnimatedScroll animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={nodeIcon} alt="Node" />
-            </AnimatedScroll>
-          </div>
-          <div className="hability">
-            <AnimatedScroll animateIn="fadeInUp" delay={0.17 * 1000}>
-              <img src={htmlIcon} alt="Html" />
-            </AnimatedScroll>
-          </div>
-          <div className="hability">
-            <AnimatedScroll animateIn="fadeInUp" delay={0.18 * 1000}>
-              <img src={cssIcon} alt="Css" />
-            </AnimatedScroll>
-          </div>
-          <div className="hability">
-            <AnimatedScroll animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
-            </AnimatedScroll>
-          </div>
-          <div className="hability">
-            <AnimatedScroll animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={jsIcon} alt="JavaScript" />
-            </AnimatedScroll>
+
+          <div className="expertise-card">
+            <div className="card-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h4>Compliance</h4>
+            <p>AI governance and ethical frameworks</p>
           </div>
         </div>
-      </div>
-      <div className="about-image">
-        <AnimatedScroll animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={HuzaifaKhan} alt="Muhammad Huzaifa Khan" />
-        </AnimatedScroll>
-      </div>
+      </AnimatedScroll>
     </Container>
   )
 }

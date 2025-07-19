@@ -53,6 +53,123 @@ const GlobalStyle = createGlobalStyle`
         }
       }
 
+      /* About Section */
+      section[id="about"] {
+        .subtitle, p, .responsibilities li, .expertise-card h4, .expertise-card p {
+          color: var(--black) !important;
+        }
+        
+        .expertise-card {
+          background: #e0e0e0 !important;
+          color: var(--black) !important;
+        }
+      }
+
+      /* Featured Projects Section */
+      section[id="project"] {
+        .subtitle, .project-description, .achievements ul li, .project-card h3, .project-card p {
+          color: var(--black) !important;
+        }
+        
+        .project-card {
+          background: #e0e0e0 !important;
+          color: var(--black) !important;
+        }
+      }
+
+      /* Key Achievements Section */
+      section[id="key-achievements"] {
+        .achievement-card p, .achievement-card {
+          color: var(--black) !important;
+        }
+        
+        .achievement-card {
+          background: #e0e0e0 !important;
+        }
+      }
+
+      /* DIY AI Studio Section */
+      section[id="diy-ai-studio"] {
+        background: #f0f0f0 !important;
+        
+        .subtitle, .description, .features-list .feature-item span:last-child, .feature-card h4, .feature-card p {
+          color: var(--black) !important;
+        }
+        
+        .feature-card {
+          background: #e0e0e0 !important;
+          color: var(--black) !important;
+        }
+      }
+
+      /* Contact Section */
+      section[id="contact"] {
+        .subtitle, .contact-info p, .promise-section p {
+          color: var(--black) !important;
+        }
+        
+        .contact-card, .promise-section {
+          background: #e0e0e0 !important;
+          color: var(--black) !important;
+        }
+
+        /* Schedule section specific fixes */
+        .schedule-section {
+          background: var(--green) !important;
+          
+          h3 {
+            color: var(--black) !important;
+          }
+          
+          p {
+            color: var(--black) !important;
+          }
+          
+          .schedule-button {
+            background: var(--black) !important;
+            color: #FFF !important;
+            
+            &:hover {
+              background: #333 !important;
+              color: #FFF !important;
+            }
+          }
+        }
+      }
+
+      /* General text color fixes for light theme */
+      p, span, div, li {
+        color: var(--black) !important;
+      }
+
+      /* Ensure all white text becomes black in light theme */
+      * {
+        color: var(--black) !important;
+      }
+
+      /* Keep green and blue colors for headings and accents */
+      h1, h2, h3, h4, h5, h6 {
+        color: var(--green) !important;
+      }
+
+      .subtitle, .description, .project-description, .achievements ul li, 
+      .features-list .feature-item span:last-child, .contact-info p, 
+      .promise-section p, .expertise-card p, .project-card p {
+        color: var(--black) !important;
+      }
+
+      /* Card backgrounds */
+      .expertise-card, .project-card, .achievement-card, .feature-card, 
+      .contact-card, .promise-section {
+        background: #e0e0e0 !important;
+        color: var(--black) !important;
+      }
+
+      /* Section backgrounds */
+      section[id="diy-ai-studio"] {
+        background: #f0f0f0 !important;
+      }
+
     }
   }
 

@@ -2,8 +2,10 @@ import Particles from "react-tsparticles"
 import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
+import { KeyAchievements } from "../KeyAchievements/KeyAchievements";
+import { FeaturedProjects } from "../FeaturedProjects/FeaturedProjects";
+import { DIYAIStudio } from "../DIYAIStudio/DIYAIStudio";
 import { Contact } from "../Contact/Contact";
-// import { Project } from "../Project/Project";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -257,7 +259,9 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
-      {/* <Project></Project> */}
+      <KeyAchievements></KeyAchievements>
+      <FeaturedProjects></FeaturedProjects>
+      <DIYAIStudio></DIYAIStudio>
       <Contact></Contact>
     </Container>
   );
