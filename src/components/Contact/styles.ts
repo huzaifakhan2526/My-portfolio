@@ -9,10 +9,12 @@ export const Container = styled.section`
     h2{
       text-align: center;
       font-size: 4rem;
+      margin-bottom: 1rem;
     }
     p{
-      color: var(--green);
+      color: var(--primary-purple);
       font-weight: 500;
+      font-size: 1.8rem;
     }
   }
 
@@ -22,27 +24,45 @@ export const Container = styled.section`
     justify-content: center;
     gap: 2rem;
     place-items: center;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
+    
     div{
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 50%;
-      max-width: 30rem;
+      width: auto;
+      min-width: 30rem;
       gap: 2rem;
-      background-color: var(--green);
+      background: var(--glass-bg);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--glass-border);
       border-radius: 1.4rem;
       padding: 1.6rem 2.8rem;
-      transition: background-color 0.25s;
-      img{
-        width: 4rem;
+      transition: all 0.3s ease;
+      box-shadow: var(--shadow-sm);
+      
+      svg{
+        color: var(--primary-purple);
+        transition: all 0.3s ease;
       }
+      
       a{
-        color: var(--black);
+        color: var(--white);
         font-weight: 500;
+        font-size: 1.6rem;
+        transition: all 0.3s ease;
       }
+      
       &:hover{
-        background-color: var(--pink);
+        background: var(--primary-gradient);
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-glow);
+        border-color: transparent;
+        
+        svg{
+          color: #FFF;
+        }
+        
         a{
           color: #FFF;
         }
@@ -56,7 +76,6 @@ export const Container = styled.section`
       flex-direction: column;
       div{
         width: 100%;
-        
       }
     }
   }

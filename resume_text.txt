@@ -1,0 +1,79 @@
+Muhammad
+Huzaifa Khan
+https://github.com/huzaifakhan2526
+Contact No: 7007174034
+Email: huzaifaattari9272@gmail.com
+Registration No: 20559007Indian Institute of Technology, Roorkee
+VERIFIED
+Summary
+Dedicated Full Stack AI Software Developer with a proven track record of spearheading innovative projects to
+drive efficiency and productivity. As the key architect behind the AI-enhanced Resume Builder, I introduced
+cutting-edge ATS-optimization using NLP models, reducing resume creation time by an impressive 70% and
+enhancing user success rates. Noteworthy accomplishments within the Learning Management System (LMS)
+include optimizing SQL queries, resulting in a 35–40% reduction in server load, and delivering the HR Assistant
+Chatbot (Agentic) 25% ahead of schedule, streamlining project timelines. My strategic planning and execution
+skills have been instrumental in enhancing backend processing speed by 50%, improving ATS keyword-
+matching accuracy by 85%, and elevating user satisfaction levels across multiple projects. Consistently
+recognized for delivering high-impact AI solutions ahead of schedule and aligning development with business
+objectives. Skilled in designing scalable architectures and integrating cutting-edge technologies to drive
+seamless user experiences and ensure precise outcomes. Committed to leveraging my expertise in AI-driven
+application development to propel organizational success and drive continuous innovation.
+Skills
+Artificial Intelligence (AI) DevelopmentMachine Learning
+Frontend Technologies: Angular (7-17), AngularJS, ReactJS, NextJS, React Native (Android, iOS)
+Backend Technologies: PHP, Node.js, Python, FastAPI
+Cloud Computing: AWS, Google Cloud Services (GCS)Natural Language Processing (NLP)
+Database Management: SQLServer OptimizationProject ManagementStrategic Planning
+User Experience (UX) DesignAgile MethodologiesProblem-solvingTeam Collaboration
+PostgreSQL
+Work Experience
+Full Stack AI Software Developer
+ChapterAppsJune 2022 - Present
+Key Responsibilities:
+- Spearheaded the development of AI solutions to drive efficiency and productivity.- Led projects from concept to completion, ensuring alignment with business objectives.
+- Collaborated with cross-functional teams to deliver high-impact AI-driven applications.
+Key Achievements:
+- Implemented intelligent ATS-optimization using NLP models, reducing resume creation time by 70%.
+- Optimized SQL queries in the Learning Management System, resulting in a 35–40% reduction in server load.
+- Completed the HR Assistant Chatbot 25% ahead of schedule, streamlining project timelines.
+Technologies Used:
+- Frontend: Angular, ReactJS, NextJS, React Native
+- Backend: PHP, Node.js, Python, FastAPI
+- Cloud Services: AWS, Google Cloud Services
+- Database: SQL, PostgreSQL
+- Other: Natural Language Processing, Machine Learning
+Impact Statements:
+- Enhanced backend processing speed by 50% through query optimization.
+- Improved ATS keyword-matching accuracy by 85% with AI models in the Resume Builder.
+- Elevated user satisfaction levels by implementing efficient solutions across projects.
+Recognition/Awards:
+- Received consistent accolades for delivering AI modules ahead of schedule and developing production-ready
+solutions.
+- Recognized for contributions in building scalable architectures and implementing high-impact features.
+Strategic Contributions:
+- Orchestrated the development of the HR Assistant Chatbot by designing workflows and defining APIs.
+- Identified and addressed performance bottlenecks in the Learning Management System, significantly
+improving efficiency.
+Full Stack Developer (Internship)
+AndroCoders2021 - 2022
+Collaborated with the development team to build web applications using a full stack technology
+stack, including front-end technologies like Angular and React, and back-end technologies like PHP
+and Node.js.
+Projects
+AI-Enhanced Resume Builder
+Next JS, OpenAi
+Spearheaded the development of an AI-enhanced Resume Builder integrating cutting-edge ATS-optimization
+using NLP models. Reduced resume creation time by 70% and enhanced user success rates.
+Link: https://github.com/huzaifakhan2526/Resume-Builder.git
+Learning Management System Optimization
+Angualar 7.0.3 and latest, React JS, Node JS
+Optimized SQL queries in the Learning Management System, resulting in a 35–40% reduction in server load.
+Improved backend processing speed by 50% through query optimization.Education
+St. Aloysius High School, 36 Cantt, Kanpur
+Matriculate (Class X)2011 - 2012
+St. Aloysius High School, 36 Cantt, Kanpur
+Intermediate (Class XII)2013 - 2014
+Uttar Pradesh Textile Technology Institute, Kanpur
+Graduate (B.Tech)2016 - 2020
+Indian Institute of Technology, Roorkee
+M.Tech.2020 - 2022

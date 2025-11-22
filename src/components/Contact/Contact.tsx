@@ -1,12 +1,11 @@
 import { Container } from "./styles";
-import emailIcon from "../../assets/email-icon.svg";
-import phoneIcon from "../../assets/phone-icon.svg"
+import { MdEmail, MdPhone } from "react-icons/md";
 // import { Form } from "../Form/Form";
 
 
-export function Contact(){
+export function Contact() {
 
-  return(
+  return (
     <Container id="contact">
       <header>
         <h2>Contact</h2>
@@ -15,13 +14,13 @@ export function Contact(){
       </header>
       <div className="contacts">
         <div>
-        <a href="mailto:themuhammadhuzaifakhan@gmail.com"><img src={emailIcon} alt="Email" /></a> 
-          <a href="mailto:themuhammadhuzaifakhan@gmail.com">Email me</a>
+          <a href="mailto:huzaifaattari9272@gmail.com"><MdEmail size={40} /></a>
+          <a href="mailto:huzaifaattari9272@gmail.com">huzaifaattari9272@gmail.com</a>
         </div>
         <div>
-        <a href="tel:+917007174034"><img src={phoneIcon} alt="Phone No" /></a>
+          <a href="tel:+917007174034"><MdPhone size={40} /></a>
           <a href="tel:+917007174034">(+91) 7007174034</a>
-        </div>  
+        </div>
       </div>
       {/* <Form></Form> */}
     </Container>
